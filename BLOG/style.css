@@ -1,0 +1,80 @@
+/* META OR DEFAULTS */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #222;
+  background: #f9f7f2;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 6rem;
+}
+
+/* ANCHOR .CSS */
+
+a {
+  color: #222;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* TITLE */
+
+.blog-title {
+  font-size: 1.4rem;
+  font-weight: normal;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+/* NAVBAR */
+
+.nav-links {
+  margin-top: 0.4rem;
+  font-size: 0.9rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+/* MAIN PAGE */
+
+.blog-bio-header {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* POSTS PAGE */
+
+.post-title {
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+.post-content {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* MUSIC PAGE */
+
+.music-post-title {
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+.music-post-content {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
