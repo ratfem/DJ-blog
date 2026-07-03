@@ -143,7 +143,7 @@ footer {
 
 .left, .main, .right {
   padding: 16px;
-  border: 3px solid #ccc;
+  border: 3px outset #ccc;
   min-height: 0;
   box-sizing: border-box;
   align-self: flex-start;
