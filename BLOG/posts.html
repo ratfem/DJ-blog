@@ -3,28 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ratpetals</title>
+  <title>ratpetals – posts</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1 class="blog-title">my blog</h1>
-    <nav class="nav-links">
-      <a href="index.html">about</a>
-      <a href="posts.html">posts</a>
-      <a href="music.html">music</a>
-    </nav>
-  </header>
+  <div class="content-wrap posts-page">
+    <header>
+      <div class="header-banner">
+        <h1 class="blog-title">
+          <img src="IMAGES/LOGOBWINLINE.png" alt="ratpetals" width="1000" height="150">
+        </h1>
+      </div>
+    </header>
 
-  <main>
-      <article class="post">
-        <h1 class="post-title">test 1</h1>
-        <p class="post-content">"hello world!"</p>
-      </article>
-      <article class="post">
-        <h1 class="post-title">test 2</h1>
-        <p class="post-content">"hello world!"</p>
-      </article>
-  </main>
+    <div class="layout posts-layout">
+      <aside class="left posts-sidebar">
+        <h3>Navigation</h3>
+        <ul>
+          <li><a href="index.html">about</a></li>
+          <li><a href="posts.html">posts</a></li>
+          <li><a href="music.html">music</a></li>
+        </ul>
+      </aside>
+
+      <main class="posts-content">
+        <article class="posts-post">
+          <h1 class="posts-post-title">test 1</h1>
+          <p class="posts-post-content">"hello world!"</p>
+        </article>
+        <article class="posts-post">
+          <h1 class="posts-post-title">test 2</h1>
+          <p class="posts-post-content">"hello world!"</p>
+        </article>
+      </main>
+    </div>
+
+    <footer>
+      <p>&copy; 2026 lxtus.petal. all rights reserved.</p>
+    </footer>
+  </div>
 </body>
 </html>

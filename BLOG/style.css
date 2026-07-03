@@ -1,51 +1,55 @@
-/* META OR DEFAULTS */
-
-* {
+/* UNIVERSAL */
+*, *::before, *::after {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
-  line-height: 1.6;
-  color: #222;
-  background: #f9f7f2;
-  max-width: 640px;
-  margin: 0 auto;
-  padding: 3rem 1.5rem 6rem;
+  font-family: 'Comic Neue', sans-serif;
+  font-size: 16px;
+  background: #00e8ff;
+  background-image: url('IMAGES/blogbackground.jpg');
+  background-repeat: repeat;
+  color: #000000;
+  margin: 0;
+  width: 100%;
 }
 
-/* ANCHOR .CSS */
-
 a {
-  color: #222;
+  color: #000000;
+  text-decoration: none;
 }
 
 a:hover {
   text-decoration: none;
 }
 
-/* TITLE */
+/* MAIN PAGE (index.html) */
+.header-banner {
+  background: transparent;
+  border: none;
+  padding: 16px 0;
+  margin: 0 auto 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  box-sizing: border-box;
+}
 
 .blog-title {
   font-size: 1.4rem;
   font-weight: normal;
   letter-spacing: 0.02em;
   text-align: center;
+  margin: 0;
 }
 
-/* NAVBAR */
-
-.nav-links {
-  margin-top: 0.4rem;
-  font-size: 0.9rem;
-  text-align: center;
-  margin-bottom: 3rem;
+.blog-title img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
 }
-
-/* MAIN PAGE */
 
 .blog-bio-header {
   font-size: 2rem;
@@ -54,27 +58,127 @@ a:hover {
   text-align: center;
 }
 
-/* POSTS PAGE */
+/* POSTS PAGE (posts.html) */
+.posts-content {
+  flex: 0 0 60%;
+  background: #e9c2f1;
+  padding: 16px;
+  border: 3px solid #ccc;
+  min-height: 300px;
+  box-sizing: border-box;
+}
 
-.post-title {
+.posts-post {
+  margin-bottom: 1.5rem;
+}
+
+.posts-post-title {
   font-size: 1.2rem;
   line-height: 1.8;
+  margin-bottom: 0.4rem;
 }
 
-.post-content {
+.posts-post-content {
   font-size: 1.1rem;
   line-height: 1.6;
+  margin-top: 0;
 }
 
-/* MUSIC PAGE */
+/* MUSIC PAGE (music.html) */
+.music-content {
+  flex: 0 0 60%;
+  background: #e9c2f1;
+  padding: 16px;
+  border: 3px solid #ccc;
+  min-height: 300px;
+  box-sizing: border-box;
+}
+
+.music-post {
+  margin-bottom: 1.5rem;
+}
 
 .music-post-title {
   font-size: 1.2rem;
   line-height: 1.8;
+  margin-bottom: 0.4rem;
 }
 
-.music-post-content {
-  font-size: 1.1rem;
-  line-height: 1.6;
+/* SHARED LAYOUT FOR MULTIPLE PAGES */
+.content-wrap {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1em 0;
+  box-sizing: border-box;
 }
 
+header {
+  background: transparent;
+  padding: 1em;
+  text-align: center;
+}
+
+footer {
+  background: transparent;
+  padding: 1em;
+  text-align: center;
+}
+
+.layout {
+  display: flex;
+  gap: 1em;
+  box-sizing: border-box;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.left, .main, .right {
+  padding: 16px;
+  border: 3px solid #ccc;
+  min-height: 300px;
+  box-sizing: border-box;
+}
+
+.left {
+  flex: 0 0 20%;
+  background: #efc8f0;
+}
+
+.main {
+  flex: 0 0 60%;
+  background: #e9c2f1;
+}
+
+.right {
+  flex: 0 0 20%;
+  background: #f0c4f0;
+}
+
+.left ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.left li {
+  margin-bottom: 0.5em;
+}
+
+.left a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.left a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .layout {
+    flex-direction: column;
+  }
+
+  .left, .main, .right {
+    flex: 1 1 100%;
+  }
+}
