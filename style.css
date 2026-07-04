@@ -61,8 +61,8 @@ a:hover {
   text-align: center;
 }
 
-/* POSTS PAGE (posts.html) */
-.posts-content {
+/* BLOG PAGE (posts.html) */
+.blog-content {
   flex: 0 0 85%;
   background: #e9c2f1;
   padding: 16px;
@@ -71,17 +71,17 @@ a:hover {
   box-sizing: border-box;
 }
 
-.posts-post {
+.blog-post {
   margin-bottom: 1.5rem;
 }
 
-.posts-post-title {
+.blog-post-title {
   font-size: 1.2rem;
   line-height: 1.8;
   margin-bottom: 0.4rem;
 }
 
-.posts-post-content {
+.blog-post-content {
   font-size: 1.1rem;
   line-height: 1.6;
   margin-top: 0;
@@ -172,7 +172,7 @@ footer {
   background: #efc8f0;
 }
 
-.posts-layout .posts-sidebar,
+.blog-layout .blog-sidebar,
 .music-layout .music-sidebar {
   flex: 0 0 15%;
 }
