@@ -119,6 +119,23 @@ a:hover {
   flex-direction: column;
 }
 
+.redirect-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+.redirect-card {
+  background: #e9c2f1;
+  border: 3px solid #ccc;
+  padding: 2rem;
+  max-width: 32rem;
+  text-align: center;
+  box-sizing: border-box;
+}
+
 header {
   background: transparent;
   padding: 1em;
