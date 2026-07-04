@@ -26,7 +26,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/* MAIN PAGE (index.html) */
+/* MAIN PAGE (home) */
 .header-banner {
   background: transparent;
   border: none;
@@ -61,7 +61,7 @@ a:hover {
   text-align: center;
 }
 
-/* BLOG PAGE (posts.html) */
+/* BLOG PAGE (blog) */
 .blog-content {
   flex: 0 0 85%;
   background: #e9c2f1;
@@ -87,7 +87,7 @@ a:hover {
   margin-top: 0;
 }
 
-/* MUSIC PAGE (music.html) */
+/* MUSIC PAGE (music) */
 .music-content {
   flex: 0 0 85%;
   background: #e9c2f1;
