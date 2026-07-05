@@ -42,7 +42,6 @@
 
 <!-- CENTER COLUMN -->
 
-
       <div class="main">
         <article>
           <h1 class="blog-bio-header">about</h1>
@@ -94,48 +93,3 @@
 
 <!-- EMAIL LIST CODE -->
 
-  <script>
-    const form = document.getElementById('signup-form');
-    const message = document.getElementById('signup-message');
-    const EMAIL_OCTOPUS_API_KEY = 'eo_7137356070364629f2a7d05fecc5867351d8082319c82000c1058bffd8b6dba5';
-    const EMAIL_OCTOPUS_LIST_ID = '1670586c-780d-11f1-8949-4f10231cc5b2';
-
-    if (form && message) {
-      form.addEventListener('submit', async (event) => {
-        event.preventDefault();
-        const emailInput = document.getElementById('signup-email');
-        const email = emailInput.value.trim();
-
-        if (!email) return;
-
-        if (EMAIL_OCTOPUS_API_KEY === 'YOUR_EMAIL_OCTOPUS_API_KEY' || EMAIL_OCTOPUS_LIST_ID === 'YOUR_EMAIL_OCTOPUS_LIST_ID') {
-          message.textContent = 'Please add your Email Octopus API key and list ID in the form script before publishing.';
-          return;
-        }
-
-        try {
-          await fetch(
-            `https://emailoctopus.com/api/1.5/lists/${EMAIL_OCTOPUS_LIST_ID}/contacts?api_key=${encodeURIComponent(EMAIL_OCTOPUS_API_KEY)}`,
-            {
-              method: 'POST',
-              mode: 'no-cors',
-              headers: {
-                'Content-Type': 'application/x-www-form-urlencoded'
-              },
-              body: new URLSearchParams({
-                email_address: email,
-                status: 'SUBSCRIBED'
-              })
-            }
-          );
-
-          message.textContent = "thanks!";
-          form.reset();
-        } catch (error) {
-          message.textContent = error.message || 'Something went wrong. Please try again.';
-        }
-      });
-    }
-  </script>
-</body>
-</html>
