@@ -51,6 +51,17 @@
             i love art and i just want to share it with people. it's the best part of being alive.
           </p>
         </article>
+
+        <section class="signup-section">
+          <h2>get show updates</h2>
+          <p>drop your email here and i'll reach out when i have a new set coming up.</p>
+          <form class="signup-form" id="signup-form">
+            <label class="sr-only" for="signup-email">email address</label>
+            <input type="email" id="signup-email" name="email" placeholder="your email address" required>
+            <button type="submit">sign up</button>
+          </form>
+          <p class="signup-message" id="signup-message" aria-live="polite"></p>
+        </section>
       </div>
 
       <aside class="right">
@@ -69,5 +80,52 @@
       <p>&copy; 2026 lxtus.petal. don't be rude.</p>
     </footer>
   </div>
+
+  <script>
+    const form = document.getElementById('signup-form');
+    const message = document.getElementById('signup-message');
+    const EMAIL_OCTOPUS_API_KEY = 'eo_7137356070364629f2a7d05fecc5867351d8082319c82000c1058bffd8b6dba5';
+    const EMAIL_OCTOPUS_LIST_ID = '1670586c-780d-11f1-8949-4f10231cc5b2';
+
+    if (form && message) {
+      form.addEventListener('submit', async (event) => {
+        event.preventDefault();
+        const emailInput = document.getElementById('signup-email');
+        const email = emailInput.value.trim();
+
+        if (!email) return;
+
+        if (EMAIL_OCTOPUS_API_KEY === 'YOUR_EMAIL_OCTOPUS_API_KEY' || EMAIL_OCTOPUS_LIST_ID === 'YOUR_EMAIL_OCTOPUS_LIST_ID') {
+          message.textContent = 'Please add your Email Octopus API key and list ID in the form script before publishing.';
+          return;
+        }
+
+        try {
+          const response = await fetch(`https://emailoctopus.com/api/1.5/lists/${EMAIL_OCTOPUS_LIST_ID}/contacts`, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+              'Authorization': `Bearer ${EMAIL_OCTOPUS_API_KEY}`
+            },
+            body: JSON.stringify({
+              email_address: email,
+              status: 'SUBSCRIBED'
+            })
+          });
+
+          const result = await response.json().catch(() => ({}));
+
+          if (!response.ok) {
+            throw new Error(result?.detail || 'Unable to subscribe right now.');
+          }
+
+          message.textContent = "thanks! i'll reach out when i have a new show.";
+          form.reset();
+        } catch (error) {
+          message.textContent = error.message || 'Something went wrong. Please try again.';
+        }
+      });
+    }
+  </script>
 </body>
 </html>
