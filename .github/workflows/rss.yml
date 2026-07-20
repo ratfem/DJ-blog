@@ -35,6 +35,6 @@ jobs:
             echo "No RSS changes to commit."
           else
             git commit -m "chore: update RSS feed"
-            git pull --rebase origin main
+            git pull --rebase --strategy-option=ours origin main
             git push origin HEAD:main
           fi
