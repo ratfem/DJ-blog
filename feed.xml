@@ -3,114 +3,17 @@
   <channel>
     <title>ratpetals updates</title>
     <link>https://lxtus.online/</link>
-    <description>Recent updates from ratpetals' website.</description>
+    <description>Recent updates from ratpetals&apos; website.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Jul 2026 03:49:11 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 03:49:50 GMT</lastBuildDate>
     <atom:link href="https://lxtus.online/feed.xml" rel="self" type="application/rss+xml" />
+    
     <item>
-      <title>Upcoming show: 7/25/2026 - Blinky's 10pm-2am</title>
-      <link>https://lxtus.online/home/</link>
-      <guid>https://lxtus.online/home/</guid>
-      <pubDate>Mon, 20 Jul 2026 03:49:11 +0000</pubDate>
-      <description>Show update from the homepage: 7/25/2026 - Blinky's 10pm-2am</description>
-    </item>
-    <item>
-      <title>Upcoming show: 8/29/2026 - Blinky's 10pm-2am</title>
-      <link>https://lxtus.online/home/</link>
-      <guid>https://lxtus.online/home/</guid>
-      <pubDate>Mon, 20 Jul 2026 03:49:11 +0000</pubDate>
-      <description>Show update from the homepage: 8/29/2026 - Blinky's 10pm-2am</description>
-    </item>
-    <item>
-      <title>Upcoming show: 9/19/2026 - Mood Ring 7-10pm (1hr set)</title>
-      <link>https://lxtus.online/home/</link>
-      <guid>https://lxtus.online/home/</guid>
-      <pubDate>Mon, 20 Jul 2026 03:49:11 +0000</pubDate>
-      <description>Show update from the homepage: 9/19/2026 - Mood Ring 7-10pm (1hr set)</description>
-    </item>
-    <item>
-      <title>Upcoming show: 9/26/2026 - Blinky's 10pm-2am</title>
-      <link>https://lxtus.online/home/</link>
-      <guid>https://lxtus.online/home/</guid>
-      <pubDate>Mon, 20 Jul 2026 03:49:11 +0000</pubDate>
-      <description>Show update from the homepage: 9/26/2026 - Blinky's 10pm-2am</description>
-    </item>
-    <item>
-      <title>Upcoming show: 10/31/2026 - Blinky's 10pm-2am</title>
-      <link>https://lxtus.online/home/</link>
-      <guid>https://lxtus.online/home/</guid>
-      <pubDate>Mon, 20 Jul 2026 03:49:11 +0000</pubDate>
-      <description>Show update from the homepage: 10/31/2026 - Blinky's 10pm-2am</description>
-    </item>
-    <item>
-      <title>added homepage changes to RSS feed</title>
-      <link>https://github.com/ratfem/DJ-blog/commit/caec2d0d8fc4a252a6c653cd5c151b6e18c51b6f</link>
-      <guid>https://github.com/ratfem/DJ-blog/commit/caec2d0d8fc4a252a6c653cd5c151b6e18c51b6f</guid>
-      <pubDate>Sun, 19 Jul 2026 23:48:11 -0400</pubDate>
-      <description>Website update: added homepage changes to RSS feed</description>
-    </item>
-    <item>
-      <title>Merge branch 'main' of https://github.com/ratfem/DJ-blog</title>
-      <link>https://github.com/ratfem/DJ-blog/commit/6d11f9c4c3d882424ed617954950186c79cdca19</link>
-      <guid>https://github.com/ratfem/DJ-blog/commit/6d11f9c4c3d882424ed617954950186c79cdca19</guid>
-      <pubDate>Sun, 19 Jul 2026 23:38:21 -0400</pubDate>
-      <description>Website update: Merge branch 'main' of https://github.com/ratfem/DJ-blog</description>
-    </item>
-    <item>
-      <title>fixes to rss feed</title>
-      <link>https://github.com/ratfem/DJ-blog/commit/1ceacf7c251392d207dc70de4e21b092d0984e50</link>
-      <guid>https://github.com/ratfem/DJ-blog/commit/1ceacf7c251392d207dc70de4e21b092d0984e50</guid>
-      <pubDate>Sun, 19 Jul 2026 23:37:48 -0400</pubDate>
-      <description>Website update: fixes to rss feed</description>
-    </item>
-    <item>
-      <title>chore: update RSS feed</title>
-      <link>https://github.com/ratfem/DJ-blog/commit/911f97079dd036c526805cd1f85caf216c7b60f0</link>
-      <guid>https://github.com/ratfem/DJ-blog/commit/911f97079dd036c526805cd1f85caf216c7b60f0</guid>
-      <pubDate>Mon, 20 Jul 2026 03:32:21 +0000</pubDate>
-      <description>Website update: chore: update RSS feed</description>
-    </item>
-    <item>
-      <title>more fixes</title>
-      <link>https://github.com/ratfem/DJ-blog/commit/d7a056afd1cf062364855565ebebaace9991785a</link>
-      <guid>https://github.com/ratfem/DJ-blog/commit/d7a056afd1cf062364855565ebebaace9991785a</guid>
-      <pubDate>Sun, 19 Jul 2026 23:30:25 -0400</pubDate>
-      <description>Website update: more fixes</description>
-    </item>
-    <item>
-      <title>chore: update RSS feed</title>
-      <link>https://github.com/ratfem/DJ-blog/commit/d9495e6742c565e9af0291ba9b74adcc98400da5</link>
-      <guid>https://github.com/ratfem/DJ-blog/commit/d9495e6742c565e9af0291ba9b74adcc98400da5</guid>
-      <pubDate>Mon, 20 Jul 2026 03:28:07 +0000</pubDate>
-      <description>Website update: chore: update RSS feed</description>
-    </item>
-    <item>
-      <title>Merge branch 'main' of https://github.com/ratfem/DJ-blog</title>
-      <link>https://github.com/ratfem/DJ-blog/commit/0e11a34f47a3f8bcdc2311de919e571556966a93</link>
-      <guid>https://github.com/ratfem/DJ-blog/commit/0e11a34f47a3f8bcdc2311de919e571556966a93</guid>
-      <pubDate>Sun, 19 Jul 2026 23:27:52 -0400</pubDate>
-      <description>Website update: Merge branch 'main' of https://github.com/ratfem/DJ-blog</description>
-    </item>
-    <item>
-      <title>more fixes</title>
-      <link>https://github.com/ratfem/DJ-blog/commit/c274835098c590b379404e3db1c674afb453c707</link>
-      <guid>https://github.com/ratfem/DJ-blog/commit/c274835098c590b379404e3db1c674afb453c707</guid>
-      <pubDate>Sun, 19 Jul 2026 23:25:28 -0400</pubDate>
-      <description>Website update: more fixes</description>
-    </item>
-    <item>
-      <title>chore: update RSS feed</title>
-      <link>https://github.com/ratfem/DJ-blog/commit/3cdb8aa7be991f7684c840ed29d454d077c8b6d1</link>
-      <guid>https://github.com/ratfem/DJ-blog/commit/3cdb8aa7be991f7684c840ed29d454d077c8b6d1</guid>
-      <pubDate>Mon, 20 Jul 2026 03:23:06 +0000</pubDate>
-      <description>Website update: chore: update RSS feed</description>
-    </item>
-    <item>
-      <title>Merge branch 'main' of https://github.com/ratfem/DJ-blog</title>
-      <link>https://github.com/ratfem/DJ-blog/commit/3eb1ca1056e1f44240dd5e3be79d9f292c795270</link>
-      <guid>https://github.com/ratfem/DJ-blog/commit/3eb1ca1056e1f44240dd5e3be79d9f292c795270</guid>
-      <pubDate>Sun, 19 Jul 2026 23:22:55 -0400</pubDate>
-      <description>Website update: Merge branch 'main' of https://github.com/ratfem/DJ-blog</description>
+      <title><![CDATA[07/19/2026]]></title>
+      <link>https://lxtus.online/blog/posts/07192026.html</link>
+      <guid isPermaLink="true">https://lxtus.online/blog/posts/07192026.html</guid>
+      <pubDate>Mon, 20 Jul 2026 03:49:46 GMT</pubDate>
+      <description><![CDATA[been busy trying to make this happen]]></description>
     </item>
   </channel>
 </rss>
