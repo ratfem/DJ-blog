@@ -19,7 +19,8 @@ def run_git(args: list[str]) -> str:
 
 
 def format_rfc2822(value: str) -> str:
-    parsed = datetime.fromisoformat(value)
+    normalized = value.replace("Z", "+00:00")
+    parsed = datetime.fromisoformat(normalized)
     return parsed.strftime("%a, %d %b %Y %H:%M:%S %z")
 
 
