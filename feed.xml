@@ -5,8 +5,22 @@
     <link>https://lxtus.online/</link>
     <description>Recent updates from ratpetals' website.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Jul 2026 03:28:07 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 03:32:21 +0000</lastBuildDate>
     <atom:link href="https://lxtus.online/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>more fixes</title>
+      <link>https://github.com/ratfem/DJ-blog/commit/d7a056afd1cf062364855565ebebaace9991785a</link>
+      <guid>https://github.com/ratfem/DJ-blog/commit/d7a056afd1cf062364855565ebebaace9991785a</guid>
+      <pubDate>Sun, 19 Jul 2026 23:30:25 -0400</pubDate>
+      <description>Website update: more fixes</description>
+    </item>
+    <item>
+      <title>chore: update RSS feed</title>
+      <link>https://github.com/ratfem/DJ-blog/commit/d9495e6742c565e9af0291ba9b74adcc98400da5</link>
+      <guid>https://github.com/ratfem/DJ-blog/commit/d9495e6742c565e9af0291ba9b74adcc98400da5</guid>
+      <pubDate>Mon, 20 Jul 2026 03:28:07 +0000</pubDate>
+      <description>Website update: chore: update RSS feed</description>
+    </item>
     <item>
       <title>Merge branch 'main' of https://github.com/ratfem/DJ-blog</title>
       <link>https://github.com/ratfem/DJ-blog/commit/0e11a34f47a3f8bcdc2311de919e571556966a93</link>
@@ -97,20 +111,6 @@
       <guid>https://github.com/ratfem/DJ-blog/commit/8042fa2d0afc781b19d99cda59c34d08d688c10d</guid>
       <pubDate>Sun, 19 Jul 2026 23:00:06 -0400</pubDate>
       <description>Website update: Delete CNAME</description>
-    </item>
-    <item>
-      <title>reorganized blog style.</title>
-      <link>https://github.com/ratfem/DJ-blog/commit/e0deec08ddf4dc76bda71cd55899b4c67cb2a3d8</link>
-      <guid>https://github.com/ratfem/DJ-blog/commit/e0deec08ddf4dc76bda71cd55899b4c67cb2a3d8</guid>
-      <pubDate>Sun, 19 Jul 2026 22:52:52 -0400</pubDate>
-      <description>Website update: reorganized blog style.</description>
-    </item>
-    <item>
-      <title>added RSS feed, updated shows.</title>
-      <link>https://github.com/ratfem/DJ-blog/commit/7c114dec9ad2292e252f04b7dbda13d956152065</link>
-      <guid>https://github.com/ratfem/DJ-blog/commit/7c114dec9ad2292e252f04b7dbda13d956152065</guid>
-      <pubDate>Sun, 19 Jul 2026 22:25:22 -0400</pubDate>
-      <description>Website update: added RSS feed, updated shows.</description>
     </item>
   </channel>
 </rss>
