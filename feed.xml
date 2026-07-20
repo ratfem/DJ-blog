@@ -5,42 +5,49 @@
     <link>https://lxtus.online/</link>
     <description>Recent updates from ratpetals' website.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Jul 2026 03:47:45 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 03:49:11 +0000</lastBuildDate>
     <atom:link href="https://lxtus.online/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Upcoming show: 7/25/2026 - Blinky's 10pm-2am</title>
       <link>https://lxtus.online/home/</link>
       <guid>https://lxtus.online/home/</guid>
-      <pubDate>Mon, 20 Jul 2026 03:47:45 +0000</pubDate>
+      <pubDate>Mon, 20 Jul 2026 03:49:11 +0000</pubDate>
       <description>Show update from the homepage: 7/25/2026 - Blinky's 10pm-2am</description>
     </item>
     <item>
       <title>Upcoming show: 8/29/2026 - Blinky's 10pm-2am</title>
       <link>https://lxtus.online/home/</link>
       <guid>https://lxtus.online/home/</guid>
-      <pubDate>Mon, 20 Jul 2026 03:47:45 +0000</pubDate>
+      <pubDate>Mon, 20 Jul 2026 03:49:11 +0000</pubDate>
       <description>Show update from the homepage: 8/29/2026 - Blinky's 10pm-2am</description>
     </item>
     <item>
       <title>Upcoming show: 9/19/2026 - Mood Ring 7-10pm (1hr set)</title>
       <link>https://lxtus.online/home/</link>
       <guid>https://lxtus.online/home/</guid>
-      <pubDate>Mon, 20 Jul 2026 03:47:45 +0000</pubDate>
+      <pubDate>Mon, 20 Jul 2026 03:49:11 +0000</pubDate>
       <description>Show update from the homepage: 9/19/2026 - Mood Ring 7-10pm (1hr set)</description>
     </item>
     <item>
       <title>Upcoming show: 9/26/2026 - Blinky's 10pm-2am</title>
       <link>https://lxtus.online/home/</link>
       <guid>https://lxtus.online/home/</guid>
-      <pubDate>Mon, 20 Jul 2026 03:47:45 +0000</pubDate>
+      <pubDate>Mon, 20 Jul 2026 03:49:11 +0000</pubDate>
       <description>Show update from the homepage: 9/26/2026 - Blinky's 10pm-2am</description>
     </item>
     <item>
       <title>Upcoming show: 10/31/2026 - Blinky's 10pm-2am</title>
       <link>https://lxtus.online/home/</link>
       <guid>https://lxtus.online/home/</guid>
-      <pubDate>Mon, 20 Jul 2026 03:47:45 +0000</pubDate>
+      <pubDate>Mon, 20 Jul 2026 03:49:11 +0000</pubDate>
       <description>Show update from the homepage: 10/31/2026 - Blinky's 10pm-2am</description>
+    </item>
+    <item>
+      <title>added homepage changes to RSS feed</title>
+      <link>https://github.com/ratfem/DJ-blog/commit/caec2d0d8fc4a252a6c653cd5c151b6e18c51b6f</link>
+      <guid>https://github.com/ratfem/DJ-blog/commit/caec2d0d8fc4a252a6c653cd5c151b6e18c51b6f</guid>
+      <pubDate>Sun, 19 Jul 2026 23:48:11 -0400</pubDate>
+      <description>Website update: added homepage changes to RSS feed</description>
     </item>
     <item>
       <title>Merge branch 'main' of https://github.com/ratfem/DJ-blog</title>
@@ -104,13 +111,6 @@
       <guid>https://github.com/ratfem/DJ-blog/commit/3eb1ca1056e1f44240dd5e3be79d9f292c795270</guid>
       <pubDate>Sun, 19 Jul 2026 23:22:55 -0400</pubDate>
       <description>Website update: Merge branch 'main' of https://github.com/ratfem/DJ-blog</description>
-    </item>
-    <item>
-      <title>Update rss.yml</title>
-      <link>https://github.com/ratfem/DJ-blog/commit/b59ba804ca8894bf33832869f249d181b1ae27ab</link>
-      <guid>https://github.com/ratfem/DJ-blog/commit/b59ba804ca8894bf33832869f249d181b1ae27ab</guid>
-      <pubDate>Sun, 19 Jul 2026 23:22:50 -0400</pubDate>
-      <description>Website update: Update rss.yml</description>
     </item>
   </channel>
 </rss>
