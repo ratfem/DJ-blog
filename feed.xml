@@ -5,9 +5,29 @@
     <link>https://lxtus.online/</link>
     <description>Recent updates from ratpetals' website.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Jul 2026 03:25:01 +0000</lastBuildDate>
-    <lastBuildDate>Mon, 20 Jul 2026 03:23:06 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 03:28:07 +0000</lastBuildDate>
     <atom:link href="https://lxtus.online/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Merge branch 'main' of https://github.com/ratfem/DJ-blog</title>
+      <link>https://github.com/ratfem/DJ-blog/commit/0e11a34f47a3f8bcdc2311de919e571556966a93</link>
+      <guid>https://github.com/ratfem/DJ-blog/commit/0e11a34f47a3f8bcdc2311de919e571556966a93</guid>
+      <pubDate>Sun, 19 Jul 2026 23:27:52 -0400</pubDate>
+      <description>Website update: Merge branch 'main' of https://github.com/ratfem/DJ-blog</description>
+    </item>
+    <item>
+      <title>more fixes</title>
+      <link>https://github.com/ratfem/DJ-blog/commit/c274835098c590b379404e3db1c674afb453c707</link>
+      <guid>https://github.com/ratfem/DJ-blog/commit/c274835098c590b379404e3db1c674afb453c707</guid>
+      <pubDate>Sun, 19 Jul 2026 23:25:28 -0400</pubDate>
+      <description>Website update: more fixes</description>
+    </item>
+    <item>
+      <title>chore: update RSS feed</title>
+      <link>https://github.com/ratfem/DJ-blog/commit/3cdb8aa7be991f7684c840ed29d454d077c8b6d1</link>
+      <guid>https://github.com/ratfem/DJ-blog/commit/3cdb8aa7be991f7684c840ed29d454d077c8b6d1</guid>
+      <pubDate>Mon, 20 Jul 2026 03:23:06 +0000</pubDate>
+      <description>Website update: chore: update RSS feed</description>
+    </item>
     <item>
       <title>Merge branch 'main' of https://github.com/ratfem/DJ-blog</title>
       <link>https://github.com/ratfem/DJ-blog/commit/3eb1ca1056e1f44240dd5e3be79d9f292c795270</link>
@@ -91,27 +111,6 @@
       <guid>https://github.com/ratfem/DJ-blog/commit/7c114dec9ad2292e252f04b7dbda13d956152065</guid>
       <pubDate>Sun, 19 Jul 2026 22:25:22 -0400</pubDate>
       <description>Website update: added RSS feed, updated shows.</description>
-    </item>
-    <item>
-      <title>Update style.css</title>
-      <link>https://github.com/ratfem/DJ-blog/commit/f3c16d22d69f274b13163dc7abc39b65bc059562</link>
-      <guid>https://github.com/ratfem/DJ-blog/commit/f3c16d22d69f274b13163dc7abc39b65bc059562</guid>
-      <pubDate>Sat, 04 Jul 2026 22:11:24 -0400</pubDate>
-      <description>Website update: Update style.css</description>
-    </item>
-    <item>
-      <title>Merge branch 'main' of https://github.com/ratfem/DJ-blog</title>
-      <link>https://github.com/ratfem/DJ-blog/commit/a28a6888eaaaa092dd9cb5142b515a0c747d2546</link>
-      <guid>https://github.com/ratfem/DJ-blog/commit/a28a6888eaaaa092dd9cb5142b515a0c747d2546</guid>
-      <pubDate>Sat, 04 Jul 2026 22:07:35 -0400</pubDate>
-      <description>Website update: Merge branch 'main' of https://github.com/ratfem/DJ-blog</description>
-    </item>
-    <item>
-      <title>Update index.html</title>
-      <link>https://github.com/ratfem/DJ-blog/commit/cb26a87da75970485ebbc7669e485e5e0ca0fbb0</link>
-      <guid>https://github.com/ratfem/DJ-blog/commit/cb26a87da75970485ebbc7669e485e5e0ca0fbb0</guid>
-      <pubDate>Sat, 04 Jul 2026 22:07:29 -0400</pubDate>
-      <description>Website update: Update index.html</description>
     </item>
   </channel>
 </rss>
