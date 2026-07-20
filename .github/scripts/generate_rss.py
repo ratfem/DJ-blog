@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import os
+import re
 import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
@@ -25,9 +26,36 @@ def format_rfc2822(value: str) -> str:
 
 
 def build_feed() -> str:
-    log_output = run_git(["log", "-n", "15", "--date=iso-strict", "--pretty=format:%H%x09%aI%x09%s"])
     items: list[str] = []
 
+    homepage_path = REPO_ROOT / "home" / "index.html"
+    if homepage_path.exists():
+        homepage_text = homepage_path.read_text(encoding="utf-8")
+        right_column_match = re.search(r"<aside class=\"right\">(.*?)</aside>", homepage_text, re.S)
+        if right_column_match:
+            right_column_html = right_column_match.group(1)
+            show_matches = re.findall(r"<p>([^<]+)</p>", right_column_html)
+            for show in show_matches:
+                cleaned = re.sub(r"\s+", " ", show).strip()
+                if cleaned and not cleaned.lower().startswith("upcoming shows"):
+                    escaped_title = escape(f"Upcoming show: {cleaned}")
+                    escaped_desc = escape(f"Show update from the homepage: {cleaned}")
+                    items.append(
+                        """    <item>
+      <title>{title}</title>
+      <link>{link}</link>
+      <guid>{link}</guid>
+      <pubDate>{pub_date}</pubDate>
+      <description>{description}</description>
+    </item>""".format(
+                            title=escaped_title,
+                            link=f"{SITE_URL}/home/",
+                            pub_date=datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S %z"),
+                            description=escaped_desc,
+                        )
+                    )
+
+    log_output = run_git(["log", "-n", "15", "--date=iso-strict", "--pretty=format:%H%x09%aI%x09%s"])
     for line in log_output.splitlines():
         if not line:
             continue
@@ -50,6 +78,7 @@ def build_feed() -> str:
             )
         )
 
+    items = items[:15]
     last_build_date = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S %z")
     items_block = "\n".join(items)
     body = f"""<?xml version=\"1.0\" encoding=\"utf-8\"?>
