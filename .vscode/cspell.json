@@ -24,5 +24,8 @@
     "transnow",
     "twitchyanimal",
     "webzone"
+  ],
+  "ignoreWords": [
+    "Garuda"
   ]
 }
